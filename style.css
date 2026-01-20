@@ -1,0 +1,153 @@
+* {
+    font-family: "Inter";
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #1A0B2E;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    letter-spacing: 1px;
+}
+
+/* nav start */
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #361c58;
+}
+
+.nav {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1em 0;
+}
+
+.nav_logo h2 {
+    font-size: 2em;
+}
+
+.logo_white {
+    color: white;
+}
+
+.logo_gradient {
+    background-image: linear-gradient(to left bottom, MediumPurple, DeepPink, Yellow);
+    background-clip: text;
+    color: transparent;
+}
+
+.nav_menu {
+    display: flex;
+    gap: 40px;
+}
+
+.nav_menu a {
+    color: white;
+    font-size: 0.85em;
+}
+
+.nav_btn {
+    border: none;
+    color: #ffffff;
+    background-image: linear-gradient(to left bottom, MediumPurple, DeepPink, Yellow);
+    padding: 10px 20px;
+    font-size: 0.80em;
+    border-radius: 50px;
+    transition: width 5s linear 2s;
+}
+.nav_btn:hover{
+    width: 150px;
+}
+
+.fa-arrow-right {
+    margin-left: 5px;
+    background-color: rgb(221, 49, 141);
+
+}
+
+.menu_button {
+    display: none;
+}
+
+
+
+
+/* banner start */
+.new_badge{
+    position: relative;
+    top: 10em;
+    left: 8em;
+    text-align: center;
+}
+.new_badge h3{
+    font-size: 1em;
+    padding: 10px 20px;
+    color: black;
+    border-radius: 30px;
+    background-color: #00FF88;
+    display: inline;
+}
+.banner_image_contents img{
+    width: 100%;
+}
+.banner_text_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.banner_text_content h1 {
+    font-size: 4em;
+    color: white;
+}
+
+.banner_text_content p {
+    font-size: 0.90em;
+    font-weight: 300;
+    color: white;
+}
+
+.banner_buttons {
+    margin-top: 1em;
+    display: flex;
+    gap: 10px;
+}
+
+.banner_buttons .fa-spotify {
+    margin-right: 8px;
+    background-color: rgb(241, 143, 196);
+}
+
+.banner_buttons a {
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 0.80em;
+}
+
+.spotify {
+    background-image: linear-gradient(to left bottom, MediumPurple, DeepPink, Yellow);
+    color: #ffffff;
+}
+
+.massage {
+    border: 1px solid #00FF88;
+    color: #00FF88;
+}
+
+.fa-envelope {
+    margin-right: 8px;
+    color: #00FF88;
+}
