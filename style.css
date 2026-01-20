@@ -417,3 +417,62 @@ nav {
     border-radius: 50px;
 
 }
+
+
+
+
+
+
+
+/* footer start */
+.footer_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    width: 100%;
+    background: url(assets/footer-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer {
+    width: 70%;
+}
+
+.footer_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.footer_content h2 {
+    font-size: 4em;
+}
+
+.footer_content p {
+    font-size: 0.80em;
+    font-weight: 300;
+}
+
+.footer_icons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.f_con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75em;
+}
+
+.f_con p {
+    font-size: 0.90em;
+}
