@@ -292,3 +292,69 @@ nav {
     grid-column: span 2;
     grid-row: span 2;
 }
+
+
+
+
+
+/* featured start */
+.featured {
+    width: 70%;
+}
+
+.featured_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.featured_title h2 {
+    font-size: 2.75em;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.featured_content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5em;
+}
+
+.featured_card {
+    background-color: #351165;
+    border-radius: 20px;
+}
+
+.featured_card iframe {
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.featured_card_details {
+    padding: 1em;
+}
+
+.featured_card_details h3 {
+    font-size: 1.25em;
+    margin: 1em 0;
+}
+
+.featured_card_details p {
+    font-size: 0.80em;
+    font-weight: 300;
+    line-height: 1.75em;
+    margin: 0.5em 0;
+}
+
+.time_of_episodes {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.time_of_episodes p {
+    color: #00FF88;
+}
