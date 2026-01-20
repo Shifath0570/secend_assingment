@@ -66,7 +66,8 @@ nav {
     border-radius: 50px;
     transition: width 5s linear 2s;
 }
-.nav_btn:hover{
+
+.nav_btn:hover {
     width: 150px;
 }
 
@@ -84,13 +85,14 @@ nav {
 
 
 /* banner start */
-.new_badge{
+.new_badge {
     position: relative;
     top: 10em;
     left: 8em;
     text-align: center;
 }
-.new_badge h3{
+
+.new_badge h3 {
     font-size: 1em;
     padding: 10px 20px;
     color: black;
@@ -98,9 +100,11 @@ nav {
     background-color: #00FF88;
     display: inline;
 }
-.banner_image_contents img{
+
+.banner_image_contents img {
     width: 100%;
 }
+
 .banner_text_content {
     display: flex;
     flex-direction: column;
@@ -150,4 +154,72 @@ nav {
 .fa-envelope {
     margin-right: 8px;
     color: #00FF88;
+}
+
+
+
+
+
+
+/* about start */
+.about_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0;
+}
+
+.about {
+    width: 70%;
+}
+
+.about_details {
+    border-bottom: 1px solid #361c58;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.about_text {
+    text-align: center;
+}
+
+.about_text h2 {
+    font-size: 2.75em;
+}
+
+.about_text p {
+    font-size: 0.90em;
+    font-weight: 300;
+    line-height: 1.80;
+}
+
+.about_middle_para {
+    margin: 30px 0;
+}
+
+.about_contents {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5em;
+}
+
+.card {
+    text-align: center;
+}
+
+.card h2 {
+    font-size: 2em;
+    font-weight: 800;
+    color: #00FF88;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 0.8em;
+    font-weight: 300;
 }
